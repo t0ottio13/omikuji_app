@@ -1,0 +1,17 @@
+<body>
+    <header></header>
+    <main>
+        <div class= "container">
+            <div class ="title">
+                <h1>おみくじアプリ</h1>
+            </div>
+            <div class = "fortune">
+                <%= @fortune_result %>
+            </div>
+            <div class = "button">
+                <%= button_to "占う", {controller: "top", action: "fortune"}, {method: :get}%>
+            </div>
+        </div>
+        </main>
+    <footer></footer>
+</body>
