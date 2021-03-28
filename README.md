@@ -10,7 +10,7 @@ version
 HOW TO USE
 
 Install the gem with the following command.
-    $ bundle install --without production
+<code>$ bundle install --without production</code>
 
 Start the server.
-    $ rails server
+<code>$ rails server</code>
